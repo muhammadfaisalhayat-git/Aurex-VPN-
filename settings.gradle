@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url "https://artifact.bytedance.com/repository/pangle/" }
+        maven { url "https://artifact.bytedance.com/repository/android-global/" }
+        maven { url "https://artifact.bytedance.com/repository/android-orion/" }
+        maven { url "https://artifactory.bidmachine.io/bidmachine" }
+        maven { url "https://artifact.bytedance.com/repository/android/" }
+        maven { url "https://artifactory.appodeal.com/appodeal" }
+        maven { url "https://artifactory.appodeal.com/appodeal-public" }
+        maven {
+            url "https://artifacts.applovin.com/android"
+            content {
+                includeGroup "com.applovin"
+                includeGroup "com.applovin.quality"
+            }
+        }
+    }
+}
+
+include ':LuckyWheel'
+include ':app'
+rootProject.name='Aurex VPN'
