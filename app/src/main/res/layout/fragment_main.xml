@@ -264,7 +264,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:cardBackgroundColor="#2A3875"
+                        app:cardBackgroundColor="#2E7D32"
                         app:cardCornerRadius="16dp"
                         android:layout_margin="15dp"
                         app:cardElevation="20dp">
@@ -318,7 +318,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:cardBackgroundColor="#2A3875"
+                        app:cardBackgroundColor="#2E7D32"
                         app:cardCornerRadius="16dp"
                         android:layout_margin="15dp"
                         app:cardElevation="20dp">
